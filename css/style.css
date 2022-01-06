@@ -11,7 +11,7 @@ nav
     position: fixed !important;
     width: 100%;
     z-index: 5;
-    background-image: linear-gradient(to right,#1ca9f0,#0c7bb3);
+    background-image: linear-gradient(to right,#39b1cd,#39b1cd);
     border-radius: 0px 0px 30px 30px;
 }
 
@@ -63,7 +63,7 @@ nav button .navbar-toggler-icon
 
 .backgroundVideo
 {
-    background-image: linear-gradient(to right,#0c7bb37e,#0c7bb37e);
+    background-image: linear-gradient(to right,#39b1cd7e,#39b1cd7e);
 }
 
 #MainVideo
@@ -81,7 +81,7 @@ nav button .navbar-toggler-icon
 
 .mainContent .titleContent h1
 {
-    background: -webkit-linear-gradient(#0c7bb3,#f2bae8);
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -143,7 +143,7 @@ nav button .navbar-toggler-icon
 
 .info .title h2
 {
-    background: -webkit-linear-gradient(#0c7bb3,#f2bae8);
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -153,7 +153,7 @@ nav button .navbar-toggler-icon
     width: 370px;
     height: 300px;
     position: relative;
-    border-bottom: 3px solid #0c7bb3;
+    border-bottom: 3px solid #39b1cd;
     border-radius: 20px;
     box-shadow: 0px 10px 10px gray;
 }
@@ -188,7 +188,7 @@ nav button .navbar-toggler-icon
 
 .info .question
 {
-    color: #0c7bb3;
+    color: #39b1cd;
 }
 
 
@@ -205,7 +205,7 @@ nav button .navbar-toggler-icon
 
 .Gallary .title h2
 {
-    background: -webkit-linear-gradient(#0c7bb3,#f2bae8);
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -222,6 +222,25 @@ nav button .navbar-toggler-icon
 
 /* end of Gallary section */
 
+/* start of slide section */
+
+.slide h2
+{
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;width:13px;padding:0
+}
+
+
+/* start of slide section */
+
 /* Start of Dr */
 
 .Dr .cont
@@ -231,14 +250,14 @@ nav button .navbar-toggler-icon
     background-image: linear-gradient(to bottom right,
     #fff 0%,
     #fff 40%, 
-    #0c7bb3 60%,
-    #0c7bb3 100%);
+    #39b1cd 60%,
+    #39b1cd 100%);
 
 }
 
-.Dr .title h1
+.Dr .title h2
 {
-    background: -webkit-linear-gradient(#0c7bb3,#f2bae8);
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -262,7 +281,7 @@ nav button .navbar-toggler-icon
 
 .Contact .title h2
 {
-    background: -webkit-linear-gradient(#0c7bb3,#f2bae8);
+    background: -webkit-linear-gradient(#39b1cd,#f2bae8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -287,7 +306,7 @@ nav button .navbar-toggler-icon
 .Contact .c1,.Contact .c2,.Contact .c3
 {
     background-color: whitesmoke;
-    border-bottom: 3px solid #0c7bb3;
+    border-bottom: 3px solid #39b1cd;
     border-radius: 20px;
     transition: all 0.25s ease;
     box-shadow: 0px 10px 10px gray;
@@ -314,7 +333,7 @@ nav button .navbar-toggler-icon
 
 footer
 {
-    background-image: linear-gradient(to right,#1ca9f0,#0c7bb3);
+    background-image: linear-gradient(to right,#1ca9f0,#39b1cd);
     color: white;
 }
 
