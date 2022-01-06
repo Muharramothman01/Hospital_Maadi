@@ -34,3 +34,35 @@ window.addEventListener("scroll",()=>
         item[4].id = "";
 });
 
+// slideshow 
+
+
+let slideIndex = 0;
+function plusDivs(n)
+{
+    showDivs(slideIndex +=n);
+}
+carousel();
+
+function carousel() {
+  let i;
+  let x = document.querySelectorAll(".mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 5500); // Change image every 5.5 seconds
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.querySelectorAll(".mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
