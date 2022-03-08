@@ -6,6 +6,11 @@
     text-align: right;
 }
 
+p
+{
+    direction: rtl;
+}
+
 nav
 {
     position: fixed !important;
@@ -160,14 +165,14 @@ nav button .navbar-toggler-icon
 
 .info .c1
 {
-    background-image: url(../img-videos/photo/q1.jpg);
+    background-image: url(../img-videos/photo/img9.png);
     background-size: 100%100%;
 }
 
 
 .info .c2
 {
-    background-image: url(../img-videos/photo/q2.jpg);
+    background-image: url(../img-videos/photo/img10.png);
     background-size: 100%100%;
 }
 
